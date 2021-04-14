@@ -3,6 +3,7 @@ import ContractsHandler from './ContractsHandler'
 
 class BalanceWatcher {
   isWatching = false
+  timer = null
   _getCoinBalance = async (userAddress) => {
     try {
       const onChainData = await OnChainDataHandler.getDataFromContract(ContractsHandler.coin, userAddress)
@@ -56,8 +57,8 @@ class BalanceWatcher {
   }
 
   _nextWatchStep = (userAddress, cb) => {
-    const timer = setTimeout(() => {
-      clearTimeout(timer)
+    this.timer = setTimeout(() => {
+      clearTimeout(this.timer)
       this.watchingBalances(userAddress, cb);
     }, 5000);
   }

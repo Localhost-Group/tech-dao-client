@@ -14,7 +14,7 @@ mogę dostać expa za:
 static - expa 'opłaca' zdobywający w eth:
 - gwiazdki na github gitlab
 - upy i checki na stacku
- 
+
 dynamic - expa 'opłacają' zdobywający/wystawiający publikację w eth:
 
 pomoc innym:

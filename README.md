@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# T.E.CH D.A.O. -> TECHDAO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+T - technology
+E - education
+CH - charity
 
-## Available Scripts
+D - decentralized
+A - autonomous
+O - organisation
 
-In the project directory, you can run:
+Dość pisania durnych CVek i wypisywanie co się aktualnie umie - to jedno miejsce prezentujące Ciebie jako programistę w różnych portalach
 
-### `yarn start`
+Ta aplikacja dla programistów 
+służy do nadzorowania swojego expa i zdobywania nowego w różnych technologiach
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+jej klienta można postawić sobie lokalnie lub skorzystać z klienta na stronie ...
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Poprzez publikację wartościowych materiałów i pomaganie sobie nawzajem - i tak to robimy na fb, blogach, yt, githubach czy stacku
 
-### `yarn test`
+Jak to działa
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Prerequirements:
+1. Ty - jesteś programistą/-tką
+2. Musisz mieć nowostworzone konto na Metamasku, aby adres był dedykowany do tej aplikacji (2 klikniecia)
+3. W Metamasku musisz mieć sieć ustawioną na Ropsten
+4. Musisz mieć Githuba / Gitlaba / Stackoverflow lub wszystkie (do 6 kliknieć)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Intro:
+1. powiąż swoje konto metamaska z kontami ze slacka gh, gitlab, stacka, to dostaniesz punkty EXPa w technologiach, które zostaną wykryte na podstawie Twoich commitów czy udzielanych odpowiedzi
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Każda technologia ma swoje własne punkty expa, które są niezależne od siebie i jest ustalana na podstawie publicznych
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Możesz dostać expa jeśli:
+- masz gwiazdki w publicznych repo na github/gitlab
+- masz upy i checki przy swoich odpowiedziach na stacku
 
-### `yarn eject`
+# Dodatkowo możesz zdobyć expa jeśli:
+- opublikujesz wartościowy materiał i społeczność pozytywnie go oceni - medium, dev.to, własny blog, yt, github/gitlab
+- ocenisz czyjeś repo /  artykuł / kurs
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- pomożesz młodszemu programiście w nauce
+- ktoś pomoże Ci w nauce
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- dasz do oceny swój projekt do portfolio
+- ocenisz czyjś projekt do portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## W apce istnieją 2 wartości w stokenizowanej formie
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# TDC == TECHDAO Coin - token reprezentujący walutę 
+- jego wartość określa rynek oraz właściciele coina między sobą
+- jest go ograniczona ilość - **256 * 10 ^ 9**, która do nikogo nie należy i trzeba ją "wykopać" przez działanie na rzecz społeczności
+- w przypadku transferu między właścicielami ginie 1% wartości transferu, a kolejne 2% wartości transferu jest redystrybuowane między wszystkich właścicieli coina po równo, a do odbiorcy dochodzi 97% transferu
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Każda technologia ma swoje własne punkty expa, które są niezależne od siebie
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Możesz dostać dostać expa jeśli:
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+- opublikujesz wartościowy materiał i społeczność pozytywnie go oceni - medium, dev.to, własny blog, yt, github/gitlab
+- ocenisz czyjeś repo /  artykuł / kurs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- pomożesz młodszemu programiście w nauce
+- ktoś pomoże Ci w nauce
 
-### Deployment
+- masz gwiazdki w publicznych repo na github/gitlab
+- masz upy i checki przy swoich odpowiedziach na stacku
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- dasz do oceny swój projekt do portfolio
+- ocenisz czyjś projekt do portfolio
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+  
+samorozwój:
+- publikację portfolio - link do repo + opis + ocena 3 starszych expem programistów
+
+
+mogę zarobić cash za:
+- (wykopują) pomoc innym non profit
+- 5 airdropów - na rozpędzenie gospodarki (5x1% total vol / ilość adresów)
+- (wykopują) ocenę czyjegoś portfolio / projektu /  artykułu / kursu
+- (przelewają) sprzedaż swoich rabatów, kursów, usług, produktów (kto inny ma cash i kupi)

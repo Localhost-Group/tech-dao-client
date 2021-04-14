@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Web3Controller, ContractsHandler, BalanceWatcher } from './controllers'
-
+import { WalletBalance, CoinBalance, ExpBalances } from './components'
 
 async function init(updateWallet, initializeContracts) {
   try {
@@ -50,7 +50,8 @@ const useWeb3 = () => {
     if (wallet.address && contractInitialized) {
       watchBalances(wallet, updateBalances)
     }
-  }, [contractInitialized, wallet])
+  }, [contractInitialized, wallet.address])
+
   return { wallet, balances }
 }
 
@@ -59,8 +60,11 @@ function App() {
   const { wallet, balances } = useWeb3()
   return (
     <div className="App">
-      {JSON.stringify(wallet)}
-      {JSON.stringify(balances)}
+      <WalletBalance wallet={wallet} />
+      <hr />
+      <CoinBalance coin={balances.coin} userAddress={wallet.address} />
+      <hr />
+      <ExpBalances exps={balances.exps} userAddress={wallet.address} />
     </div>
   );
 }

@@ -42,8 +42,9 @@ class ContractsHandler {
       const exps = await Promise.all(expTokens.map((key) => this._initContract(abi['exps'], addresses['exps'][key])))
       
       const fullfilled = expTokens.reduce((c, key) => {
-        const [found] = exps.filter(c_ => c_._address === addresses['exps'][key])
-        c[key] = found
+        const address = addresses['exps'][key]
+        const [found] = exps.filter(c_ => c_._address === address)
+        c[address] = found
         return c
       }, {})
       this.exps = fullfilled

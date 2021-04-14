@@ -10,8 +10,17 @@ class OnChainDataHandler {
             const totalSupply = await contract.methods.totalSupply().call();
             const balance = await contract.methods.balanceOf(userAddress).call()
 
+            if (symbol === 'TDC') {
+                const minted = await contract.methods.minted().call()
+                const maxSupply = await contract.methods.maxSupply().call()
+                const burned = await contract.methods.burned().call()
+                return {
+                    decimals, symbol, totalSupply, balance, address: contract._address, minted, maxSupply, burned
+                }
+            }
+
             return {
-                decimals, symbol, totalSupply, balance
+                decimals, symbol, totalSupply, balance, address: contract._address
             }
         } catch (err) {
             console.log('err', err)
